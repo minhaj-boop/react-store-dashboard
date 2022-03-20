@@ -1,0 +1,29 @@
+.sidebar {
+  position: fixed;
+  width: 15rem;
+  height: 100%;
+  background-color: black;
+  .brand {
+    color: #f94144;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    font-weight: 900;
+  }
+  .links {
+    ul {
+      margin-bottom: 3rem;
+      .active {
+        border-right: 0.3rem solid #f94144;
+        a {
+          color: #f94144;
+        }
+      }
+      li {
+        border-right: 0.3rem solid transparent;
+      }
+    }
+  }
+}
