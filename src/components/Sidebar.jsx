@@ -70,7 +70,6 @@ const Sidebar = () => {
                     <h5>Get access to all features</h5>
                     <button>Get Pro</button>
                 </div>
-
             </aside>
         </>
     );
